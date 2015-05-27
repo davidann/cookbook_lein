@@ -1,0 +1,13 @@
+DEPENDENCIES
+  clj
+    path: .
+    metadata: true
+
+GRAPH
+  apt (2.7.0)
+  clj (0.0.0)
+    apt (>= 0.0.0)
+    curl (>= 0.0.0)
+    java (>= 0.0.0)
+  curl (2.0.1)
+  java (1.31.0)
