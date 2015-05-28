@@ -6,6 +6,6 @@ execute "install lien" do
   command <<-EOH
   curl -O https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein
   chmod a+x ~/lein
-  PATH=~/:$PATH
+  echo 'PATH=~/:$PATH' >> ~/.bashrc
   EOH
 end
