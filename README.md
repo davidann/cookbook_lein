@@ -1,4 +1,4 @@
-# INSTALL LEINIGEN ON A CHEF VM
+# INSTALL LEININGEN ON A CHEF VM
 
 In order to use this cookbook, you'll need to:
 
@@ -12,5 +12,5 @@ Then, after you clone this cookbook, run:
 
 After convergence, ssh into the VM via `kitchen login`
 
-You now have a VM with leinigen on it, just run `lein` to get started.
+You now have a VM with leiningen on it, just run `lein` to get started.
 :)
