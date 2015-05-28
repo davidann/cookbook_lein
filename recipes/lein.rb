@@ -4,8 +4,8 @@ include_recipe 'java'
 
 execute "install lien" do
   command <<-EOH
-  curl -O https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein
+  curl https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein > /home/vagrant/lein
   chmod a+x ~/lein
-  echo 'PATH=~/:$PATH' >> ~/.bashrc
+  echo 'export PATH=~/:$PATH' >> ~/.bashrc
   EOH
 end
