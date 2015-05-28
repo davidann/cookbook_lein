@@ -1,11 +1,11 @@
 DEPENDENCIES
-  clj
+  cookbook_lein
     path: .
     metadata: true
 
 GRAPH
   apt (2.7.0)
-  clj (0.0.0)
+  cookbook_lein (0.0.0)
     apt (>= 0.0.0)
     curl (>= 0.0.0)
     java (>= 0.0.0)

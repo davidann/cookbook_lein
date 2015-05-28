@@ -1,4 +1,4 @@
-name             'clj'
+name             'cookbook_lein'
 maintainer       'David Weiser'
 maintainer_email 'davidann@gmail.com'
 license          'all_rights'
