@@ -14,3 +14,17 @@ After convergence, ssh into the VM via `kitchen login`
 
 You now have a VM with leiningen on it, just run `lein` to get started.
 :)
+
+If you want to work on a project inside the VM, place your project in
+<path to cookbook_lein>/.  It will be available on the VM at `/vagrant/`
+
+E.g:
+
+```
+~/code/cookbook_lein $ git clone my-project
+# ...
+~/code/cookbook_lein $ kitchen login
+vm $ cd /vagrant
+vm $ ls # my-project exists under this directory.
+``` 
+  
